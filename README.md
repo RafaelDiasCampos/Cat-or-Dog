@@ -2,7 +2,7 @@
 ## An AI based solution to categorize images as containing either cats or dogs
 
 ## Description:
-This project can be used to categorize images as being either cats or dogs. Train the AI model (or use the one already trained which achieves 81.88%) and test its predictions.
+This project can be used to categorize images as being of either cats or dogs. Train the AI model (or use the [one](#trained-model) already trained which achieves 81.88%) and test its predictions.
 
 ## Installation
 The first step needed is to install Python 3.7 (version 3.8 is not supported) and make sure pip is on PATH.  
@@ -26,7 +26,10 @@ Run the script `getImages.py` to start the acquisiton. By default 1000 training 
 
 ## Training the model
 To start training the model, just run the `trainModel.py` script. All necessary files will be created and the module will be save at `/data/models`. If the script detects a model already created, it will try to continue from it. To start a new model, simply delete all existing ones in the models folder.  
-By default, the training will happen during 200 Epochs. To change that, alter the `generations` variable in the training script.
-
+By default, the training will happen during 200 Epochs. To change that, alter the `generations` variable in the training script.  
 ## Test the model
 To test the model, place the test images in the folder `predictFiles` and run the script `predict.py`. All images inside the folder will be passed through the model and the results will be printed at the console output.
+
+## Trained Model
+
+If you would prefer instead to use an already trained model, you can download it at https://www.asuswebstorage.com/navigate/a/#/s/BB192069E6E4458B8D312C18A74D9E934
