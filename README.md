@@ -1,8 +1,8 @@
 # Cat or Dog?
-## An AI based solution to categorize images as containing either cats or dogs
+## An AI based solution to categorize images as being of either cats or dogs
 
 ## Description:
-This project can be used to categorize images as being of either cats or dogs. Train the AI model (or use the [one](#trained-model) already trained which achieves 81.88%) and test its predictions.
+This project can be used to categorize images as being of either cats or dogs. Train the AI model (or use the [one](#trained-model) already trained which achieves 93.75%) and test its predictions.
 
 ## Installation
 The first step needed is to install Python 3.7 (version 3.8 is not supported) and make sure pip is on PATH.  
@@ -32,4 +32,4 @@ To test the model, place the test images in the folder `predictFiles` and run th
 
 ## Trained Model
 
-If you would prefer instead to use an already trained model, you can download it at https://www.asuswebstorage.com/navigate/a/#/s/BB192069E6E4458B8D312C18A74D9E934
+If you would prefer instead to use an already trained model, you can download it at https://www.asuswebstorage.com/navigate/a/#/s/E00A4D3B6EF84131805879916CDB69704
